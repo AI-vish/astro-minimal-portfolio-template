@@ -1,9 +1,9 @@
 ---
-title: "My First Blog Post with a very long name"
-pubDate: 2022-07-01 #Y-M-D
-description: "Test"
-author: "Tim"
-image: { url: "/demo-1.jpg", alt: "Test" }
+title: "Wish ronaldo got a World cup:/ "
+pubDate: 2025-11-27 #Y-M-D
+description: "It's ok he's still the best"
+author: "Binaryvish"
+image: { url: "/demo-1.jpg", alt: "binaryvish" }
 ---
 
-This is test content
+Kindly come back once this page is ready, adios!

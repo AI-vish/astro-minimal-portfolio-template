@@ -9,9 +9,9 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Tim Witzdam",
-  logo: "/logo.webp",
-  email: "tim@witzdam.com",
+  name: "Vishal Thangakumar",
+  logo: "/demo-1.jpg",
+  email: "vishalthangakumar@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -35,33 +35,38 @@ export const navBarLinks: NavBarLink[] = [
 
 export const socialLinks: SocialLink[] = [
   {
+    title: "LinkedIn",
+    url: "https://www.linkedin.com/in/vishal-thangakumar-84b041220",
+    icon: "mdi:linkedin",
+  },
+  {
     title: "GitHub",
-    url: "https://github.com/TimWitzdam",
+    url: "https://github.com/AI-vish",
     icon: "mdi:github",
     external: true,
   },
   {
     title: "Mail",
-    url: "mailto:tim@witzdam.com",
-    icon: "mdi:email",
+    url: "vishalthangakumar@gmail.com",
+    icon: "mdi:gmail",
   },
 ];
 
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "Vishal Thangakumar",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Full time student from India, who's figuring things out. I'm on the job market this quarter!",
     image: identity.logo,
   },
-  role: "Student & Software Developer",
+  role: "Computer and Communications Engineer- Welcome to my space of the internet...Btw, this site is still being built. Do come back later",
   description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
+    "I'm Vishal Thangakumar, a full time student from India, who's figuring things out. I'm on the job market this quarter!",
   socialLinks: socialLinks,
   links: [
     {
-      title: "My Projects",
+      title: "My Projects", 
       url: "/projects",
     },
     {
@@ -74,18 +79,15 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Tim Witzdam",
+    title: "About | Vishal Thangakumar",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Full time student from India, constantly learning new stuff both in tech and outside it.",
     image: identity.logo,
   },
-  subtitle: "Some information about myself",
+  subtitle: "Here's me",
   about: {
     description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
-<br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
+I'm Vishal Thangakumar, I am a passionate Computer and Communications undergraduate student eager to learn new technologies. Currently enhancing my tech stack. Applying my skills to solve real world problems that come with evolving tech. Here's my fav quote: Until death, all defeat is psychological`, // Markdown is supported
     image_l: {
       url: "/demo-1.jpg",
       alt: "Left Picture",
@@ -96,30 +98,30 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
     },
   },
   work: {
-    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
+    description: `Have a look at my work, which I believe are some cool things.`, // Markdown is supported
     items: [
       {
-        title: "Software Developer",
+        title: "ML- ransomeware",
         company: {
-          name: "Freelance",
+          name: "Binaryvish",
           image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "https://github.com/AI-vish",
         },
-        date: "2021 - Present",
+        date: "2024-25",
       },
       {
-        title: "Software Developer",
+        title: "Image Steganography",
         company: {
-          name: "Freelance",
+          name: "Binaryvish",
           image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "https://github.com/AI-vish",
         },
-        date: "2019 - 2021",
+        date: "2024-25",
       },
     ],
   },
   connect: {
-    description: `I'm always interested in meeting new people and learning new things. Feel free to connect with me on any of the following platforms.`, // Markdown is supported
+    description: `Take a look at my socials below and feel free to get in touch to chat or collaborate. I'll be happy to chat :)`, // Markdown is supported
     links: socialLinks,
   },
 };
@@ -127,32 +129,32 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
-    description: "Check out what I've been working on.",
+    title: "Projects | Vishal Thangakumar",
+    description: "It is ordinary to like the beautiful but it's beautiful to like the ordinary",
     image: identity.logo,
   },
-  subtitle: "Check out what I've been working on.",
+  subtitle: "Check this out. (Kindly give Vishal some time to finish constructing this website)",
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
+      title: "Project- Under construction",
+      description: "Kindly give Vishal some time to finish constructing this website",
       image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
+      year: "2025",
+      url: "https://github.com/AI-vish",
+    },
+    {
+      title: "Project-2",
+      description: "Something I heard Chris Williamson say in one of his podcasts: You've already acheived goals you said...would make you happy, how can you presume that your happiness sits on the next side of the nextx set of goals, given that right now you're on the other side of your last set of goals",
+      image: "/demo-2.jpg",
+      year: "2025",
+      url: "https://github.com/AI-vish",
     },
     {
       title: "Project 1",
-      description: "Project 1 Description",
+      description: "Project- Under construction",
       image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
-    },
-    {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
+      year: "2025",
+      url: "https://github.com/AI-vish",
     },
   ],
 };
@@ -160,9 +162,9 @@ export const projectsPageContent: ProjectPageContent = {
 // Blog (/blog)
 export const blogPageContent: BlogPageContent = {
   seo: {
-    title: "Blog | Tim Witzdam",
-    description: "Thoughts, stories and ideas.",
+    title: "Blog | Vishal Thangakumar",
+    description: "In -progress",
     image: identity.logo,
   },
-  subtitle: "Thoughts, stories and ideas.",
+  subtitle: "Magic in small moments",
 };

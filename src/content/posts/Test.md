@@ -1,7 +1,8 @@
 ---
-title: "My First Blog Post with a very long name"
-pubDate: 2022-07-01 #Y-M-D
-description: "Test"
-author: "Tim"
-image: { url: "/logo.webp", alt: "Test" }
+title: "will complete this after tests"
+pubDate: 2025-11-27 #Y-M-D
+description: "Yet to be built"
+author: "Binaryvish"
+image: { url: "/logo.webp", alt: "Ambs" }
 ---
+Kindly come back once this page is ready, adios!
